@@ -9,14 +9,15 @@
     "start": "hugo server --disableFastRender",
     "start-examplesite": "hugo server -s exampleSite --disableFastRender",
     "build-examplesite": "NODE_ENV=production hugo -s exampleSite --gc",
-    "build": "NODE_ENV=production hugo server --gc"
+    "build": "npm ci && hugo --gc"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.10",
-    "postcss-import": "^14.0.1",
-    "tailwindcss": "^2.2.19"
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.2.4"
   },
   "browserslist": [
     "last 1 version",
@@ -25,6 +26,11 @@
     "not dead"
   ],
   "dependencies": {
-    "postcss-cli": "^10.1.0"
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "tailwindcss": "^3.2.4"
   }
 }
