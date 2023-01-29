@@ -1,0 +1,42 @@
+
+
+backend:
+  name: github
+  repo: sredevopsdev/elclaustro
+  branch: staging
+  open_authoring: true
+publish_mode: editorial_workflow
+logo_url: "https://elclaustro.cl/images/logo.svg"
+locale: es
+media_folder: static/images
+public_folder: images/
+
+collections:
+  - name: Publicar 
+    label: page
+    slug: "{{title}}"
+    image: "{{image}}"
+    type: page
+    folder: content/pages/
+    create: true
+    fields:
+      - label: title
+        name: title
+        widget: string
+      - label: Descripción
+        name: description
+        widget: string
+      - label: Imagen destacada
+        name: image
+        widget: image
+      - label: URL
+        name: url
+        widget: string
+      - label: body
+        name: body
+        widget: markdown
+      - name: type
+        label: type
+        default: page
+        widget: hidden
+

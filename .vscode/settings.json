@@ -58,6 +58,9 @@
     }
     ],
     "yaml.schemas": {
-        "https://json.schemastore.org/netlify.json": "file:///Users/ngeorger/elclaustro/static/publica/config.yml"
+        "https://json.schemastore.org/netlify.json": [
+            "file:///Users/ngeorger/elclaustro/static/publica/config.yml",
+            "file:///Users/ngeorger/elclaustro-github/elclaustro/netlify.yml"
+        ]
     }
 }
