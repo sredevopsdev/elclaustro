@@ -1,0 +1,64 @@
+name: Publicar en ElClaustro.cl
+description: Envia tu contenido desde Github!
+title: "[Ingresa el título a publicar] "
+labels: ["Contenido Enviado", "Noticias"]
+assignees:
+  - ngeorger
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Publicar en ElClaustro.cl
+
+        ![](https://elclaustro.cl/images/wp-content/uploads/2020/08/cropped-cropped-cropped-cropped-banner-light-e1641680429969-300x100.png)
+        
+        Gracias por el tiempo para enviar tu contenido.
+        
+
+  # - type: dropdown
+  #   id: categories
+  #   attributes:
+  #     label: Categoria
+  #     description: En qué categoría deseas publicar?
+  #     options:
+  #       - Noticias
+  #       - Discos Y Multimedia
+  #       - Entrevistas
+  #       - Columnas
+  #       - Otra
+  #   validations:
+  #     required: true
+  - type: textarea    
+    id: image
+    attributes:
+      label: image
+      description: ¿Tienes una imagen para acompañar tu contenido?
+      placeholder: "Arrastra y suelta tu imagen o ingresa una URL"
+      # render: bash
+    validations:
+      required: false
+  - type: input
+    id: external_url
+    attributes:
+      label: Contenido Externo
+      description: ¿Deseas agregar un video en Youtube, una canción en Spotify, un enlace a una noticia en otro sitio?
+      placeholder: "https://www.youtube.com/watch?v=..."
+    validations:
+      required: false
+  - type: textarea
+    id: contenido
+    attributes:
+      label: Contenido
+      description: Puedes copiar y pegar el contenido de tu publicación, o editar directamente con Markdown (Editor integrado 🧛🏻‍♂️)
+      placeholder: Aquí arriba puedes editar el formato, agregar más imágenes (puedes arrastrar o usar una URL) 👆🏻
+    validations:
+      required: true
+  - type: markdown
+    attributes: 
+      value: |
+        _**Términos y condiciones**_
+        
+        Al enviar tu contenido, aceptas que sea publicado en ElClaustro.cl bajo [licecia Creative Commons NC SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+        Si deseas publicar contenido con licencia diferente, por favor [contáctanos](https://elclaustro.cl/contacto/).
+      

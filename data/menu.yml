@@ -1,0 +1,16 @@
+- item: Inicio
+  url: /
+- item: Nosotros
+  url: nosotros/
+- item: Label & Promotion
+  url: label-and-promotion/
+- item: Noticias
+  url: /noticias/
+- item: Discos y Multimedia
+  url: /discos-videos-y-playlists/
+- item: Entrevistas
+  url: /entrevistas/
+- item: Columnas
+  url: /columnas/
+- item: Contacto
+  url: contacto/

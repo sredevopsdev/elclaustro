@@ -1,0 +1,203 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static/",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "post",
+      "path": "[[workspace]]/content/posts"
+    },
+    {
+      "title": "page",
+      "path": "[[workspace]]/content/pages"
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "Africa",
+    "Argentina",
+    "Asia",
+    "Bolivia",
+    "Brasil",
+    "Canada",
+    "Centroamérica",
+    "Chile",
+    "Colombia",
+    "Columnas",
+    "Contenido Enviado",
+    "Dark",
+    "Darkwave",
+    "Deathrock",
+    "Destacados",
+    "Discos, Videos y Playlists",
+    "Ecuador",
+    "El Claustro",
+    "En Vivo",
+    "Entrevistas",
+    "Estados Unidos",
+    "Europa",
+    "Goth",
+    "Gothic Rock",
+    "Gótico",
+    "Mexico",
+    "Noticias",
+    "Oceanía",
+    "Perú",
+    "Post Punk",
+    "Release the Bats",
+    "Underground",
+    "Uruguay",
+    "Venezuela",
+    "promotion"
+  ],
+  "frontMatter.taxonomy.categories": [
+    "Columnas",
+    "Contenido Enviado",
+    "Destacados",
+    "Discos, Videos y Playlists",
+    "Entrevistas",
+    "Noticias"
+  ],
+  "frontMatter.content.defaultFileType": ".md",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "post",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "boolean",
+          "default": true
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "url",
+          "name": "url",
+          "type": "string",
+          "default": "{{slug}}"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string",
+          "default": "post"
+        },
+        {
+          "title": "slug",
+          "name": "slug",
+          "type": "slug"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "preview",
+          "name": "preview",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "page",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "image",
+          "name": "image",
+          "type": "image"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string",
+          "default": "page"
+        },
+        {
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "excerpt",
+          "name": "excerpt",
+          "type": "string"
+        },
+        {
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "lastmod",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "url",
+          "name": "url",
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "frontMatter.content.snippets": {
+    "Youtube": {
+      "description": "",
+      "body": "{{< youtube id=\"\" > }}",
+      "isMediaSnippet": true
+    },
+    "Spotify": {
+      "description": "",
+      "body": "{{< spotify id=\"\" type=\"\" >}}",
+      "isMediaSnippet": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{- partial "intro.html" . -}}
+  {{- partial "social.html" . -}}
+  {{ $frontBundle := .Site.Params.frontBundle | default "post" }}
+  <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
+    {{ range first 9 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)  }}
+      {{- partial "blog-card.html" . -}}
+    {{ end }}
+  </div>
+
+  {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 12 }}
+  <div class="text-center mb-8">
+    <a class="px-8 py-3 rounded transition-colors }}
+      text-gray-500 hover:text-gray-800 dark:bg-black dark:text-gray-100 dark:hover:text-white"
+      href="{{ (index (.Site.Menus.main) 0).URL | absLangURL }}" lang="{{ .Lang }}">
+      {{ i18n "morePosts" }}
+    </a>
+  </div>
+  {{ end }}
+
+{{ end }}

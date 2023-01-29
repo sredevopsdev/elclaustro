@@ -1,0 +1,34 @@
+{
+    "lang": "es",
+    "id": "https://elclaustro.cl",    
+    "short_name": "El Claustro",
+    "name": "El Claustro - Difundimos Cultura Gótica y Alternativa",
+    "dir": "ltr",
+    "orientation": "any",
+    "description": "Queremos rescatar, documentar y promocionar las distintas expresiones de la cultura oscura, gótica, dark, principalmente música de Chile, Latinoamérica e hispanoparlantes",
+    "categories": [ "music", "culture", "gothic", "dark", "alternative" ],
+            "icons": [
+                        {
+                            "src": "/images/icon-elclaustro.svg",
+                            "type": "image/svg",
+                            "purpose": "any maskable"
+                        }
+                    ],
+    "background_color": "#000000",
+        "theme_color": "#ffffff",
+            "display": "standalone",
+                "shortcuts": [
+                    {
+                        "name": "El Claustro: Label & Promotion",
+                        "description": "Nuestro label tiene como objetivo disponibilizar en plataformas de streaming el mayor catálogo de bandas y discos de la escena oscura, gótica, dark, etc. de Chile y Latinoamérica",
+                        "url": "/publica/",
+                        "icons": [
+                            {
+                                "src": "/images/icon-elclaustro.svg",
+                                "type": "image/svg",
+                                "purpose": "any maskable"
+                            }
+                        ]
+                    }
+                ]
+}

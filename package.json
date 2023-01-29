@@ -1,0 +1,30 @@
+{
+  "name": "blist-fork",
+  "version": "2.1.0",
+  "description": "Blist is a clean and fast blog theme for your Hugo site.",
+  "main": "index.js",
+  "author": "Varun A P",
+  "license": "MIT",
+  "scripts": {
+    "start": "hugo server --disableFastRender",
+    "start-examplesite": "hugo server -s exampleSite --disableFastRender",
+    "build-examplesite": "NODE_ENV=production hugo -s exampleSite --gc",
+    "build": "NODE_ENV=production hugo server --gc"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.4.0",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "postcss-import": "^14.0.1",
+    "tailwindcss": "^2.2.19"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "postcss-cli": "^10.1.0"
+  }
+}
