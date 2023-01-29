@@ -8,8 +8,7 @@ body {
 @font-face {
   font-family: "Red Hat Display";
   font-style: normal;
-  src: local(""),
-    /* Modern Browsers */ url("/fonts/RedHatDisplay-Regular.ttf")
+  src: url("/fonts/RedHatDisplay-Regular.ttf")
       format("truetype")
 }
 

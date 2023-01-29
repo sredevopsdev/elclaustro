@@ -1,18 +1,18 @@
 const themeDir = __dirname + "/../../";
 
 module.exports = {
-  purge: {
-    enabled: process.env.HUGO_ENVIRONMENT === "production",
-    content: [
-      themeDir + "layouts/**/*.html",
-      themeDir + "content/**/*.html",
-      "layouts/**/*.html",
-      "config.yaml",
-      "content/**/*.html",
-      "assets/js/search.js"
-    ],
-  },
-  darkMode: "class",
+  // purge: {
+  //   enabled: process.env.HUGO_ENVIRONMENT === "production",
+  //   content: [
+  //     themeDir + "layouts/**/*.html",
+  //     themeDir + "content/**/*.html",
+  //     "layouts/**/*.html",
+  //     "config.yaml",
+  //     "content/**/*.html",
+  //     "assets/js/search.js"
+  //   ],
+  // },
+  // darkMode: "class",
   theme: {
     defaultMode: "dark",
     extend: {
