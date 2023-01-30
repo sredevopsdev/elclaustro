@@ -1,5 +1,5 @@
 
-baseurl: 'https://elclaustro.cl/'
+baseurl: 'https://test.elclaustro.cl/'
 title: El Claustro
 theme: blist
 # author: Weru
@@ -69,9 +69,9 @@ markup:
     noClasses: false
     tabWidth: 2
 # disqusShortname: elclaustrocl
-baseURL: https://elclaustro.cl/
+baseURL: https://test.elclaustro.cl/
 languageCode: es
-url: https://elclaustro.cl
+url: https://test.elclaustro.cl
 name: "El Claustro"
 description: Difundimos Cultura Dark, Gótica y Alternativa
 enableRobotsTXT: true

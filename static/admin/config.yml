@@ -5,17 +5,16 @@ backend:
   name: github
   repo: sredevopsdev/elclaustro
   branch: staging
-  auth_scope: repository # Optional, defaults to 'public_repo
+  auth_scope: 'public_repo'  # Optional, defaults to 'public_repo
   open_authoring: true
-  use_graphql: true
   squash_merges: true
 
 publish_mode: editorial_workflow
 logo_url: "https://elclaustro.cl/images/logo.svg"
-locale: en
-local_backend: true
+locale: es
+# local_backend: true
 media_folder: static/images
-public_folder: /images
+public_folder: static
 collections:
     - name: Ingresa tu publicación
       label: post
