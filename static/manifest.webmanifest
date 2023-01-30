@@ -5,6 +5,7 @@
     "name": "El Claustro - Difundimos Cultura Gótica y Alternativa",
     "dir": "ltr",
     "orientation": "any",
+    "start_url": "https://elclaustro.cl/",
     "description": "Queremos rescatar, documentar y promocionar las distintas expresiones de la cultura oscura, gótica, dark, principalmente música de Chile, Latinoamérica e hispanoparlantes",
     "categories": [ "music", "culture", "gothic", "dark", "alternative" ],
             "icons": [

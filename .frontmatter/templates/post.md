@@ -9,5 +9,4 @@ categories: []
 image: 
 lastmod: 
 url: {{ .Title | urlize }}
-type: post
 ---

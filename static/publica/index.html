@@ -3,52 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {{/*  Adds required resources for Netlify CMS  and Identity oAuth with Netlify */}}
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <title>Content Manager</title>
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      } else {
-        console.log("netlifyIdentity not defined");
-      }
-    </script>
-{{/*   Adds button registry with Netlify Identity  */}}
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      } else {
-        console.log("netlifyIdentity not defined");
-      }
-    </script>
-
-</head>
-  <body>
-    <div id="root">
-      <div style='text-align:center;'>
-        <h1>Content Manager</h1>
-        <p>Click the button below to login to the Content Manager.</p>
-        <button onclick="window.netlifyIdentity.open()">Login</button>
-      </div>
-      {{/*  Create a register button with Google as provider for Netlify.  */}}
-      <div style='text-align:center;'>
-        <h1>Register</h1>
-        <p>Click the button below to register to the Content Manager.</p>
-        <button onclick="window.netlifyIdentity.open('signup')">Register</button>
-    </div>
-  </body>
+    <title>Content Manager</title>
+  </head>
 </html>

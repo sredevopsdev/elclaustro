@@ -4,11 +4,14 @@ backend:
   name: github
   repo: sredevopsdev/elclaustro
   branch: main
-  auth_scope: repo
+  # auth_scope: repo
   open_authoring: true
-media_folder: static/images
 publish_mode: editorial_workflow
 logo_url: "https://elclaustro.cl/images/logo.svg"
+locale: es
+local_backend: true
+media_folder: static/images
+public_folder: static/
 collections:
     - name: Ingresa tu publicación
       label: post
@@ -27,7 +30,6 @@ collections:
       - {label: "draft", name: "draft", default: "true" }
       - {label: "tags", name: "tags", widget: "list", ""}
       - {label: "Categoría", name: "categories", widget: "list"}
-
     - name: Páginas Estáticas
       label: page
       slug: "{{title}}"
@@ -51,4 +53,3 @@ collections:
         - label: body
           name: body
           widget: markdown
-        
