@@ -109,7 +109,7 @@ sitemap:
 rss:
   filename: index.xml
   limit: 20
-  link: https://elclaustro.cl/index.xml
+  link: https://test.elclaustro.cl/index.xml
   language: es
   title: El Claustro
   description: Difundimos Cultura Dark, Gótica y Alternativa
