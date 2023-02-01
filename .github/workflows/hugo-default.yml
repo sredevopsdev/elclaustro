@@ -5,7 +5,8 @@ on:
   # Runs on pushes targeting the default branch
   push:
     paths-ignore:
-      - "netlify.toml"
+      - hugo-netlify.yaml
+      - "static/admin/**"
     branches: 
       - main
 
@@ -60,7 +61,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: npm ci && HUGO_ENVIRONMENT=production hugo --baseURL "${{ steps.pages.outputs.base_url }}/" --minify --gc
+        run: npm ci && HUGO_ENVIRONMENT=production hugo --baseURL "${{ steps.pages.outputs.base_url }}/" --minify --gc --config hugo-github.yaml
             
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1

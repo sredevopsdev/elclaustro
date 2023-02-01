@@ -49,7 +49,6 @@ markup:
         slug: true
         tags: true
         categories: true
-        images: true
         image: true
         
 
@@ -116,7 +115,7 @@ rss:
     
 params:
   ascentColor: bg-black
-  darkModeToggle: false
+  darkModeToggle: true
   darkModeSync: true
   darkModeStyle: 'class'
   darkmode: 'class'

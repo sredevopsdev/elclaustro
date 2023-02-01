@@ -1,15 +1,17 @@
 /* Custom Styles */
 body {
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "Red Hat Display";
 }
 /* Fonts */
-
-/* inter-300 - latin */
+@font-face {
+  font-family: "RedHatDisplay";
+  font-style: normal;
+  src:  local(""),
+        url("/fonts/RedHatDisplay-Regular.ttf") format("truetype")
+}
 @font-face {
   font-family: "Red Hat Display";
   font-style: normal;
   src: local(""),
-    /* Modern Browsers */ url("/fonts/RedHatDisplay-Regular.ttf")
-      format("truetype")
+    url("/fonts/RedHatDisplay-Regular.ttf") format("truetype")
 }
-
