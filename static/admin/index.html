@@ -9,30 +9,11 @@
 </head>
 
 <body>
-  <script>
-    if (window.netlifyIdentity) {
-      window.netlifyIdentity.on("init", user => {
-        if (!user) {
-          window.netlifyIdentity.on("login", () => {
-            document.location.href = "/admin/";
-          });
-        }
-      });
-    }
-  </script>
   <div data-netlify-identity-menu>
-    <!-- example netlify-cms netlify-widget with google login -->
-    <a href="#login" class="button">Registrar</a>
-    <!-- Menu will be inserted here -->
   </div>
-  <div data-netlify-identity-button">
-    <!-- Button will be inserted here -->
-    <!-- example code for button -->
-    <a href="#login" class="button">Login</a>
-  </div>
+  <script src="https://unpkg.com/netlify-cms@^2.10.192/dist/netlify-cms.js"></script>
     
     
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </body>
 
 </html>
