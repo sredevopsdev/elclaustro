@@ -1,7 +1,7 @@
 ---
 title: Amora Morte ya disponible en Streaming
-description: Amora Morte es una banda que tiene su lugar en lo más alto  ~~(¿O lo más
-  profundo de la tumba?)~~ que ha salido de este querido y odiado underground.
+description: Amora Morte es una banda que tiene su lugar en lo más alto (¿O lo más profundo
+  de la tumba?) que ha salido de este querido y odiado underground.
 date: 2023-02-01T18:47:43.361Z
 draft: false
 tags:
@@ -11,7 +11,7 @@ categories:
   - Discos, Videos y Playlists
   - Noticias
 image: /images/amora morte in vitro.webp
-lastmod: 2023-02-01T20:53:05.362Z
+lastmod: 2023-02-01T21:19:37.053Z
 url: amora-morte-ya-disponible-en-streaming
 type: post
 slug: amora-morte-ya-disponible-en-streaming

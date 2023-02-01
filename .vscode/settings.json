@@ -9,5 +9,52 @@
             "comments": "off"
         },
         "editor.minimap.enabled": true
+    },
+    "frontMatter.content.autoUpdateDate": false,
+    "frontMatter.preview.host": "http://localhost:1313/",
+    "frontMatter.dashboard.openOnStart": false,
+    "frontMatter.content.wysiwyg": true,
+    "frontMatter.data.folders": [
+    {
+        "description": "Data foler",
+        "name": "data",
+        "path": "data",
+        "type": "[yaml, json, yml]"
     }
+    ],
+    "frontMatter.git.commitMessage": "FrontMatter commit",
+    "frontMatter.git.enabled": true,
+    "frontMatter.media.defaultSorting": "LastModifiedDesc",
+    "frontMatter.panel.freeform": true,
+    "frontMatter.site.baseURL": "https://elclaustro.cl/",
+    "frontMatter.taxonomy.alignFilename": true,
+    "frontMatter.taxonomy.categories": [
+            "Columnas",
+            "Contenido Enviado",
+            "Destacados",
+            "Discos, Videos y Playlists",
+            "Entrevistas",
+            "Noticias"
+    ],
+    "frontMatter.templates.enabled": true,
+    "frontMatter.templates.prefix": "",
+    "frontMatter.global.modes": [
+    {
+        "name": "production",
+        "description": "Production mode",
+        "variables": {
+        "frontMatter.site.baseURL": "https://elclaustro.cl/",
+        "frontMatter.preview.host": "https://elclaustro.cl/",
+        "frontMatter.git.enabled": true,
+        "frontMatter.content.autoUpdateDate": false
+        }
+    },
+    {
+        "name": "development",
+        "description": "Development mode",
+        "variables": {
+        "frontMatter.site.baseURL": "http://localhost:1313/"
+        }
+    }
+    ]
 }
