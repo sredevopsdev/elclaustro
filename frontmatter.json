@@ -199,5 +199,44 @@
       "body": "{{< spotify id=\"\" type=\"\" >}}",
       "isMediaSnippet": true
     }
-  }
+  },
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.content.wysiwyg": true,
+  "frontMatter.dashboard.openOnStart": false,
+  "frontMatter.data.folders": [
+    {
+      "description": "Data foler",
+      "name": "data",
+      "path": "data",
+      "type": "[yaml, json, yml]"
+    }
+  ],
+  "frontMatter.git.enabled": true,
+  "frontMatter.git.commitMessage": "FrontMatter commit",
+  "frontMatter.global.modes": [
+    {
+      "name": "production",
+      "description": "Production mode",
+      "variables": {
+        "frontMatter.site.baseURL": "https://elclaustro.cl/",
+        "frontMatter.preview.host": "https://elclaustro.cl/",
+        "frontMatter.git.enabled": true,
+        "frontMatter.content.autoUpdateDate": false
+      }
+    },
+    {
+      "name": "development",
+      "description": "Development mode",
+      "variables": {
+        "frontMatter.site.baseURL": "http://localhost:1313/"
+      }
+    }
+  ],
+  "frontMatter.media.defaultSorting": "LastModifiedDesc",
+  "frontMatter.panel.freeform": true,
+  "frontMatter.preview.host": "http://localhost:1313/",
+  "frontMatter.site.baseURL": "https://elclaustro.cl/",
+  "frontMatter.taxonomy.alignFilename": true,
+  "frontMatter.templates.enabled": true,
+  "frontMatter.templates.prefix": ""
 }

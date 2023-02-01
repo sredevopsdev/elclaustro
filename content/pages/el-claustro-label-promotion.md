@@ -11,7 +11,7 @@ excerpt: Nuestro label tiene como objetivo disponibilizar en plataformas de stre
   el mayor catálogo de bandas y discos de la escena oscura (gótica, dark, etc),
   tanto de Chile como Latinoamérica.
 author: ngeorger
-lastmod: 2023-01-23T05:49:01.036Z
+lastmod: 2023-02-01T20:56:28.407Z
 url: label-and-promotion
 ---
 
@@ -27,6 +27,7 @@ No perseguimos fines lucrativos, por lo que no cobramos por la publicación de t
 
 | Nombre  | Artista | Tipo  | Distribución | Link |
 |---|---|---|---|---|
+| In Vitro (fan release) | Amora Morte | Album | OK | [Spotify](https://open.spotify.com/album/7ISyMfpjKUFelT5StuHAEU?si=6N8lRZioSzOEWJE9L0IhMA) |
 | This Abyss in your Arms | Xianotic | Single | OK | [Spotify](https://open.spotify.com/artist/5d3xUOuQbpFE34M9fZDZjb?si=wdq0aEs4QUm-U69e6kZNXw) |
 | El Último Minuto | Convulsiones | Single | OK | [Spotify](https://open.spotify.com/track/5R7fCx89TRSsJ0lK1TPPX2?si=f477ba95f7d84e9e) |
 | Craving | Denébola | Album | OK | [Spotify](https://open.spotify.com/album/30aV76pa9RmVtPVZHzIoCw?si=DAv3mZMfRU6d2uJJvGsRrw) |

@@ -23,9 +23,9 @@ tags:
   - gótico
   - repositorio
   - underground
-lastmod: 2023-01-25T06:22:55.211Z
+lastmod: 2023-02-01T20:55:07.485Z
 ---
-<figure class="wp-block-embed is-type-rich is-provider-soundcloud wp-block-embed-soundcloud wp-embed-aspect-4-3 wp-has-aspect-ratio">
 
-<div class="wp-block-embed__wrapper">
-</div></figure>
+## Convulsiones - Convulsiones
+
+{{< spotify id="0l7xg0jxPXQHQGTlTfkD3w" type="album" >}}
