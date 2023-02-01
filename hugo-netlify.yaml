@@ -74,9 +74,9 @@ languageCode: es
 url: https://test.elclaustro.cl
 name: "El Claustro"
 description: Difundimos Cultura Dark, Gótica y Alternativa
-enableRobotsTXT: true
+enableRobotsTXT: false
 defaultContentLanguage: es
-enableGitInfo: true
+enableGitInfo: false
 enableInlineShortcodes: true
 
 permalinks:

@@ -5,63 +5,63 @@ backend:
   name: github
   repo: sredevopsdev/elclaustro
   branch: staging
-  auth_scope: 'public_repo'  # Optional, defaults to 'public_repo
+  auth_scope: repo
   open_authoring: true
   squash_merges: true
-
+open_authoring: true
 publish_mode: editorial_workflow
 logo_url: "https://elclaustro.cl/images/logo.svg"
 locale: es
 # local_backend: true
-media_folder: static/images
-public_folder: static
-collections:
-    - name: Ingresa tu publicación
-      label: post
-      folder: "content/posts"
-      create: true
-      slug: "{{title}}"
-      image: "{{image}}"
-      type: post
-      fields:
-      - {label: "type", name: "type", widget: "hidden", default: "post"}
-      - {label: "Título", name: "title", widget: "string"}
-      - {label: "Imagen destacada", name: "image", widget: "image"}
-      - {label: "Body", name: "body" , widget: "markdown"}
-      - {label: "description", name: "description", widget: "string"}
-      - {label: "date", name: "date", widget: "datetime"}
-      - {label: "draft", name: "draft", default: "true" }
-      - {label: "tags", name: "tags", widget: "list", ""}
-      - {label: "Categoría", name: "categories", widget: "list"}
-    - name: Páginas Estáticas
-      label: page
-      slug: "{{title}}"
-      image: "{{image}}"
-      type: page
-      folder: content/pages/
-      create: true
-      fields:
-        - label: Title
-          name: title
-          widget: string
-        - label: Descripción
-          name: description
-          widget: string
-        - label: Imagen destacada
-          name: image
-          widget: image
-        - label: URL
-          name: url
-          widget: string
-        - label: body
-          name: body
-          widget: markdown
-        - label: type
-          name: type
-          widget: hidden
-          default: page
-        - label: draft
-          name: draft
-          widget: hidden
-          default: true
+media_folder: "static/images"
+public_folder: "/images"
 
+collections:
+  - name: "post"
+    label: "posts"
+    folder: "content/posts"
+    create: true
+    
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Description"
+        name: "description"
+        widget: "markdown"
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+      - label: "Preview"
+        name: "preview"
+        widget: "image"
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+      - label: "Categories"
+        name: "categories"
+        widget: "list"
+      - label: "Image"
+        name: "image"
+        widget: "image"
+      - label: "Last Modified"
+        name: "lastmod"
+        widget: "datetime"
+      - label: "URL"
+        name: "url"
+        widget: "string"
+        default:
+          function: |
+            (formValues) => formValues.title.toLowerCase().replace(/\s/g, '-')
+      - label: "Type"
+        name: "type"
+        widget: "string"
+      - label: "Slug"
+        name: "slug"
+        widget: "string"
+      - label: "Keywords"
+        name: "keywords"
+        widget: "list"

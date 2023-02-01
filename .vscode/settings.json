@@ -56,8 +56,5 @@
         "frontMatter.site.baseURL": "http://localhost:1313/"
         }
     }
-    ],
-    "yaml.schemas": {
-        "https://json.schemastore.org/netlify.json": "file:///Users/ngeorger/elclaustro/static/publica/config.yml"
-    }
+    ]
 }

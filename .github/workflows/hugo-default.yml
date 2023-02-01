@@ -4,7 +4,11 @@ name: Deploy Hugo site to Pages
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    paths-ignore:
+      - "netlify.toml"
+    branches: 
+      - main
+
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -40,8 +44,12 @@ jobs:
       #   run: sudo snap install dart-sass-embedded
       - name: Checkout
         uses: actions/checkout@v3
-        # with:
-        #   submodules: recursive
+        with:
+          # Fetch all history so that --since works
+          fetch-depth: 0
+          submodules: true
+          
+    
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v2
@@ -57,8 +65,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./public
-
+          path: | 
+            ./public
   # Deployment job
   deploy:
     environment:
