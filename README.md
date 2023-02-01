@@ -2,7 +2,7 @@
 
 [![Deploy Hugo site to Pages](https://github.com/sredevopsdev/elclaustro/actions/workflows/hugo-default.yml/badge.svg)](https://github.com/sredevopsdev/elclaustro/actions/workflows/hugo-default.yml)
 
-![Logo El Claustro](https://github.com/sredevopsdev/elclaustro/raw/main/static/images/wp-content/logo.png)
+![Logo El Claustro](https://github.com/sredevopsdev/elclaustro/raw/main/static/images/logo.svg)
 
 Queremos rescatar, documentar y promocionar las distintas **expresiones de la cultura oscura, gótica, dark (o como desees llamarla 😉)**, principalmente **música de Chile, Latinoamérica y en general, hispanoparlantes**. (Inclúyase post punk, darkwave, gothic rock, electrónica, neofolk, etc) a través de publicaciones en nuestro sitio web, redes sociales y nuestra nueva iniciativa: **El Claustro: Label & Promotion**.
 
