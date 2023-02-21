@@ -1,19 +1,19 @@
 ---
-title: Entrevista a Das Ich en Cerro Santa Lucía (Video)
+draft: false
 author: Amadeus
-type: post
+slug: entrevista-das-ich-en-cerro-santa-lucia
+lastmod: 2023-01-25T02:58:03.733Z
 date: 2011-09-05T04:55:15+00:00
-image: /images/wp-content/uploads/unnamed-file.jpeg.webp
+url: entrevista-das-ich-en-cerro-santa-lucia-video
+title: Entrevista a Das Ich en Cerro Santa Lucía (Video)
+tags:
+  - Entrevistas
 categories:
   - Destacados
   - Entrevistas
-tags:
-  - Entrevistas
-lastmod: 2023-01-25T02:58:03.733Z
-slug: entrevista-das-ich-en-cerro-santa-lucia
+image: /images/wp-content/uploads/unnamed-file.jpeg.webp
+type: post
 description: Entrevista a Das Ich en Cerro Santa Lucía (Video)
-url: entrevista-das-ich-en-cerro-santa-lucia-video
-draft: false
 ---
 
 Escrito por Amadeus en Septiembre &#8211; 6 &#8211; 2009
@@ -30,4 +30,4 @@ Lenguaje universal: cigarros, piscolas y vamos pelando a ***Fiction*** sentados 
 
 *PD: la wea tiene subtitulos incrustados en las opciones de youtube*
 
-{{< youtube "https://www.youtube.com/watch?v=DzxLqGIUJeM" >}}
+{{< youtube "DzxLqGIUJeM" >}}
