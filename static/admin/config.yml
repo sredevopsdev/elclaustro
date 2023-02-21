@@ -1,10 +1,10 @@
-site_url: https://test.elclaustro.cl
-display_url: https://test.elclaustro.cl
+site_url: https://elclaustro.cl
+display_url: https://elclaustro.cl
 
 backend:
   name: github
   repo: sredevopsdev/elclaustro
-  branch: staging
+  branch: main
   auth_scope: repo
   open_authoring: true
   squash_merges: true
