@@ -19,7 +19,7 @@ public_folder: "/images"
 collections:
   - name: "post"
     label: "posts"
-    folder: "content/posts"
+    folder: "content/posts/comunidad"
     create: true
     fields:
       - label: "Title"

@@ -19,7 +19,6 @@ tags:
   - The Mission UK
 lastmod: 2023-01-24T09:40:43.043Z
 ---
-<figure class="tmblr-full" data-orig-height="333" data-orig-width="500"><img decoding="async" src="https://64.media.tumblr.com/fe48451b8edeb37efff160795ee45bef/785a715e1c2f3fca-7e/s540x810/0d39b42acd2adf0c0e6dab324a0e9fa9fa7188bc.webp" data-orig-height="333" data-orig-width="500" /></figure> 
 
 La banda inglesa **The Mission** volverá a **Chile** el próximo **25 de mayo**, comenzando aquí una **gira suramericana** que también tiene fechas confirmadas en Argentina y Brasil, y que se enmarcará en la celebración de sus **25 años de trayectoria**.
 
