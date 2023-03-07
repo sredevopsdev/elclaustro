@@ -2,7 +2,7 @@ site_url: https://elclaustro.cl
 display_url: https://elclaustro.cl
 
 backend:
-  name: git-gateway
+  name: github
   repo: sredevopsdev/elclaustro
   branch: main
   auth_scope: repo
