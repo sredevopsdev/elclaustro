@@ -2,12 +2,14 @@ site_url: https://elclaustro.cl
 display_url: https://elclaustro.cl
 
 backend:
-  name: github
+  name: git-gateway
   repo: sredevopsdev/elclaustro
   branch: main
   auth_scope: repo
   open_authoring: true
   squash_merges: true
+  api_root: https://api.github.com
+  site_domain: elclaustro.cl
 open_authoring: true
 publish_mode: editorial_workflow
 logo_url: "https://elclaustro.cl/images/logo.svg"
