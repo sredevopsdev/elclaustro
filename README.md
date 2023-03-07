@@ -1,8 +1,8 @@
 # Qué es ElClaustro.cl? ☥
 
-[![Deploy Hugo site to Pages](https://github.com/sredevopsdev/elclaustro/actions/workflows/hugo-default.yml/badge.svg)](https://github.com/sredevopsdev/elclaustro/actions/workflows/hugo-default.yml)
+[![Deploy Hugo site to Pages](https://github.com/sredevopsdev/elclaustro/actions/workflows/hugo-default.yml/badge.svg)](https://github.com/sredevopsdev/elclaustro/actions/workflows/hugo-default.yml) [![Netlify Status](https://api.netlify.com/api/v1/badges/092f9d32-1f52-487b-b867-b867d2013ae4/deploy-status)](https://app.netlify.com/sites/elclaustrocl/deploys)
 
-![Logo El Claustro](https://github.com/sredevopsdev/elclaustro/raw/main/static/images/logo.svg)
+![Logo El Claustro](https://github.com/sredevopsdev/elclaustro/raw/main/static/images/logo.svg) 
 
 Queremos rescatar, documentar y promocionar las distintas **expresiones de la cultura oscura, gótica, dark (o como desees llamarla 😉)**, principalmente **música de Chile, Latinoamérica y en general, hispanoparlantes**. (Inclúyase post punk, darkwave, gothic rock, electrónica, neofolk, etc) a través de publicaciones en nuestro sitio web, redes sociales y nuestra nueva iniciativa: **El Claustro: Label & Promotion**.
 
